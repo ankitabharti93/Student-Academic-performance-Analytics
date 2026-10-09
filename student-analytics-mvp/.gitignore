@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# --- Database (runtime data - seed regenerates it) ---
+backend/analytics.db
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
