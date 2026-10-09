@@ -1,0 +1,35 @@
+Python cache
+
+pycache/ .py[cod] .pyo
+
+Virtual environments
+
+venv/ .venv/ env/
+
+Jupyter Notebook
+
+.ipynb_checkpoints/
+
+Environment variables and secrets
+
+.env .env.* !.env.example
+
+IDE settings
+
+.vscode/ .idea/
+
+Operating system files
+
+.DS_Store Thumbs.db desktop.ini
+
+Logs
+
+*.log
+
+Test and coverage cache
+
+.pytest_cache/ .coverage htmlcov/
+
+Temporary files
+
+.tmp .bak
